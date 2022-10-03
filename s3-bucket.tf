@@ -9,4 +9,9 @@ module "s3_bucket" {
     enabled = true
   }
 
+  tags = [
+    Department = "devops"
+    Billable = true
+  ]
+
 }
