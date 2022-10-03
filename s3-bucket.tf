@@ -10,7 +10,6 @@ module "s3_bucket" {
   }
 
   tags = {
-    Name = ${var.prefix}
     Department = "devops"
     Billable = true
   }
