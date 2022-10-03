@@ -10,8 +10,7 @@ module "s3_bucket" {
   }
 
   tags = [
-    Department = "devops"
+    Department = "devops",
     Billable = true
   ]
-
 }
